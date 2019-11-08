@@ -6,7 +6,10 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Hello xcvbcxvb</h1>
+      <h1>
+        Hello <span role="img" aria-label="camera icon" />
+        TEST
+      </h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
   );
